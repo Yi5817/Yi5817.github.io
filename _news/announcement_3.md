@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2025-05-15
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+Genarris is selected as the [Rising Star-Best Poster Abstract Award](https://mlcm-25.github.io/program/) at MLCM-25, LANL!
