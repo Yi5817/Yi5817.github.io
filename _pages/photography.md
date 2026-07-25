@@ -133,6 +133,7 @@ _styles: >
 </nav>
 
 {% for album in site.data.photography %}
+
   <section class="album" id="{{ album.slug }}">
     <div class="album-header">
       <h2>{{ album.title }}</h2>
