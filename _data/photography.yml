@@ -1,0 +1,157 @@
+# Albums for /photography/, newest first.
+# Images live in assets/photos/<slug>/: <file>.jpg is the full-resolution original
+# (loaded when a frame is clicked) and <file>-thumb.jpg is the 1200px grid version.
+# w/h are the original's pixel dimensions -- they only set the aspect ratio used
+# for layout. `caption` is not displayed; it becomes the image's alt text.
+
+- slug: west
+  title: The Colorado Plateau
+  place: Utah &amp; Arizona
+  date: December 2025
+  photos:
+    - file: dsc_3366
+      w: 8256
+      h: 5504
+      caption: Delicate Arch, Arches National Park
+    - file: dsc_3484
+      w: 6998
+      h: 3936
+      caption: Shafer Canyon under a winter storm, Canyonlands
+    - file: dsc_3473
+      w: 8256
+      h: 4644
+      caption: Sunrise over the desert, Moab
+    - file: dsc_3521
+      w: 8256
+      h: 4644
+      caption: Buttes at dusk, Monument Valley
+    - file: dsc_3523
+      w: 5098
+      h: 6372
+      caption: Crossing the state line at first light
+    - file: dsc_3522
+      w: 6880
+      h: 5504
+      caption: A decade of stickers on the Arizona sign
+    - file: dsc_3597
+      w: 8256
+      h: 4644
+      caption: Life elevated, back into Utah
+
+- slug: denver
+  title: Rocky Mountain
+  place: Colorado
+  date: March 2026
+  photos:
+    - file: dsc_3733
+      w: 8256
+      h: 5504
+      caption: Hallett Peak above a thawing Dream Lake
+    - file: dsc_3743
+      w: 5504
+      h: 8256
+      caption: Driftwood and meltwater, Dream Lake
+    - file: img_2458
+      w: 3024
+      h: 4032
+      caption: Last light on the Front Range
+
+- slug: grand-teton
+  title: Grand Teton
+  place: Wyoming
+  date: August 2025
+  photos:
+    - file: dsc_1670
+      w: 7430
+      h: 4179
+      caption: The Cathedral Group from the valley floor
+    - file: dsc_1672
+      w: 7339
+      h: 4128
+      caption: A small plane over the Grand
+    - file: dsc_1702
+      w: 7339
+      h: 5504
+      caption: Mount Moran across Jackson Lake
+    - file: dsc_1686
+      w: 5504
+      h: 5504
+      caption: Summer afternoon on the Snake River
+    - file: dsc_1933
+      w: 4128
+      h: 5504
+      caption: One pine on the sagebrush flats
+
+- slug: new-mexico
+  title: White Sands
+  place: New Mexico
+  date: May 2025
+  photos:
+    - file: dsc_1404
+      w: 8256
+      h: 4644
+      caption: Gypsum dunes and the San Andres Mountains
+    - file: dsc_1394
+      w: 8256
+      h: 4644
+      caption: Yucca holding the dune crest
+    - file: dsc_1449
+      w: 2760
+      h: 1840
+      caption: Two figures on a far ridge
+    - file: dsc_1412
+      w: 7339
+      h: 5504
+      caption: White on white, near noon
+    - file: dsc_1464
+      w: 8256
+      h: 5504
+      caption: Low sun across the ripples
+    - file: dsc_1514
+      w: 5772
+      h: 4329
+      caption: Waiting out the sunset
+
+- slug: los-angeles
+  title: Los Angeles
+  place: California
+  date: December 2024
+  photos:
+    - file: dsc_5221
+      w: 6016
+      h: 3384
+      caption: Griffith Observatory at golden hour
+    - file: dsc_5230
+      w: 4512
+      h: 3384
+      caption: The Hollywood sign from Mount Hollywood
+    - file: dsc_5236
+      w: 6016
+      h: 3384
+      caption: The basin lighting up after blue hour
+
+- slug: dalian
+  title: Dalian 大连
+  place: Liaoning, China
+  date: October 2024
+  photos:
+    - file: dsc_4675
+      w: 4172
+      h: 3129
+      caption: Gulls over the Xinghai Bay Bridge
+    - file: dsc_4676
+      w: 4673
+      h: 3505
+      caption: The causeway into the city
+    - file: dsc_4787
+      w: 4109
+      h: 3082
+      caption: A trawler heading out at sunrise
+    - file: dsc_4894
+      w: 5355
+      h: 4016
+      caption: Guanyin on the rocks off the coast road
+    - file: img_4751
+      w: 4032
+      h: 3024
+      caption: Everyone came for the same sunrise
