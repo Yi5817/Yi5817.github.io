@@ -6,6 +6,24 @@
 # w/h are the original's pixel dimensions -- they only set the aspect ratio used
 # for layout. `caption` is not displayed; it becomes the image's alt text.
 
+- slug: yosemite
+  title: Yosemite
+  place: California
+  date: August 2026
+  photos:
+    - file: dsc_4327
+      w: 8256
+      h: 5504
+    - file: dsc_4338
+      w: 8256
+      h: 5504
+    - file: dsc_4352
+      w: 5504
+      h: 8256
+    - file: dsc_4353
+      w: 7187
+      h: 4791
+
 - slug: denver
   title: Rocky Mountain
   place: Colorado

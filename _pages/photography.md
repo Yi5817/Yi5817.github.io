@@ -82,6 +82,16 @@ _styles: >
     min-width: 0;
   }
 
+  /* Deterrents: no drag-to-save, no long-press save sheet on iOS, no selection.
+     Applied to the zoomed clone (.medium-zoom-image) as well. */
+  .album-grid img,
+  .medium-zoom-image {
+    -webkit-user-drag: none;
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+  }
+
   .album-grid img {
     display: block;
     width: 100%;
@@ -151,7 +161,7 @@ _styles: >
             height="{{ photo.h }}"
             loading="lazy"
             decoding="async"
-            alt="{{ photo.caption }} — {{ album.title }}, {{ album.place }}"
+            alt="{% if photo.caption %}{{ photo.caption }} — {% endif %}{{ album.title }}, {{ album.place }}"
             data-zoomable
           >
         </figure>
@@ -159,3 +169,18 @@ _styles: >
     </div>
   </section>
 {% endfor %}
+
+<p class="photo-copyright" style="margin-top: 3rem; font-size: 0.8rem; color: var(--global-text-color-light); text-align: center;">
+  &copy; {{ site.time | date: "%Y" }} Yi Yang. All photographs on this page are protected by copyright and may not be downloaded, reproduced, or used without permission.
+</p>
+
+<script>
+  // Deterrent only: blocks right-click and drag-to-save on the photos
+  // (including the medium-zoom clone). Does not stop a determined visitor.
+  document.addEventListener("contextmenu", (e) => {
+    if (e.target.closest(".album-grid img, .medium-zoom-image")) e.preventDefault();
+  });
+  document.addEventListener("dragstart", (e) => {
+    if (e.target.closest(".album-grid img, .medium-zoom-image")) e.preventDefault();
+  });
+</script>
